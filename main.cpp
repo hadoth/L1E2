@@ -13,7 +13,7 @@ int main() {
         std::cin >> x;
         std::cout << "Please provide value of n: ";
         std::cin >> n;
-        std::cout << Zmpo::Math::power(x, n) << std::endl;
+        std::cout << Math::power(x, n) << std::endl;
 
         do {
             std::cout<< "Do you like to continue? [y/n]";
